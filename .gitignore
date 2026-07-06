@@ -1,0 +1,10 @@
+# Data files must never enter this public repo (they contain emails and logistics)
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.docx
+
+# OS noise
+.DS_Store
+Thumbs.db
