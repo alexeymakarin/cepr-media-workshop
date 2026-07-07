@@ -339,6 +339,25 @@ ol.sessions { list-style: none; margin-top: 1.1rem; }
   margin-right: 0.4rem;
 }
 
+/* people links in the program: quiet underline, blue on hover */
+.session .authors a,
+.session .coauthors a,
+.session .discussant a,
+.session .paper-title a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--hairline);
+  text-underline-offset: 3px;
+}
+.session .authors a:hover,
+.session .coauthors a:hover,
+.session .discussant a:hover,
+.session .paper-title a:hover {
+  color: var(--blue);
+  text-decoration-color: var(--blue);
+}
+
 /* breaks: quiet rows */
 .session.break { padding: 0.45rem 0; }
 .session.break .what {
