@@ -84,5 +84,13 @@ Breaks use `session break`, keynotes/round tables use `session special` with a
   requested from EIEF (Susana) and the 2025 Bocconi organizers. Swap in when
   they arrive (keep the "Affiliations as of <month year>" note).
 - No photos yet for any edition; galleries show a "coming soon" placeholder.
-- 2027 (5th edition, Bocconi Milan): update the index banner when dates and
-  the call for papers are known.
+- 2027 (5th edition, Bocconi Milan, June 24–25): dates are on the index banner;
+  add the call for papers link when it exists.
+- Wording: Makarin and Prat are described as workshop **co-founders** on the
+  site (not "co-chairs") — organization rotates to the host institution each
+  year, and Bocconi leads the Milan editions. Keep this phrasing. The
+  "(co-chair)" tags inside the Scientific Committee list are from the official
+  2026 program (they co-chair the SC specifically) and are fine.
+- 2023: the Tinder paper (Xiong) was presented by Makarin because Xiong could
+  not attend — the page notes this; Xiong is deliberately absent from the 2023
+  participants list.
