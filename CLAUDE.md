@@ -87,9 +87,12 @@ Breaks use `session break`, keynotes/round tables use `session special` with a
 ## Known gaps / pending
 
 - 2023 and 2025 pages list program participants only; full attendee lists
-  requested from EIEF (Susana) and the 2025 Bocconi organizers. Swap in when
-  they arrive (keep the "Affiliations as of <month year>" note).
-- No photos yet for any edition; galleries show a "coming soon" placeholder.
+  still needed from EIEF (2023) and Bocconi (2025). The 2026 list is final:
+  rebuilt 2026-07-07 from EIEF's official on-site list (91 attendance-confirmed
+  people; source: `../2026 CEPR EIEF Media Workshop/List of Participants_(June
+  25-26 2026).xlsx`) — do not re-merge the older planning spreadsheets.
+- Photos: 2025 has four (courtesy Rafael Jiménez-Durán; EXIF/GPS stripped).
+  2022/2023/2026 galleries still show the "coming soon" placeholder.
 - 2027 (5th edition, Bocconi Milan, June 24–25): dates are on the index banner;
   add the call for papers link when it exists.
 - Wording: Makarin and Prat are described as workshop **co-founders** on the
