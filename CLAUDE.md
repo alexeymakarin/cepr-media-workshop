@@ -5,8 +5,14 @@ Society. Live at **https://alexeymakarin.github.io/cepr-media-workshop/**
 (GitHub Pages, repo `alexeymakarin/cepr-media-workshop`, deploys from `main`
 branch root automatically on push — allow 1–2 minutes).
 
-Source materials (programs, spreadsheets) live in Dropbox:
-`/mnt/c/Users/makarin/Dropbox (Personal)/Conferences and Seminars/<year> CEPR ... Workshop/`
+This working copy lives inside Dropbox at
+`/mnt/c/Users/makarin/Dropbox (Personal)/Conferences and Seminars/CEPR Media Workshop/Website/`,
+next to the per-edition source folders (programs, spreadsheets): `../<year> CEPR ... Workshop/`.
+Two settings make git safe here: the `.git` folder carries the
+`com.dropbox.ignored` attribute so Dropbox does not sync it (Dropbox syncing
+git internals corrupts repos — GitHub is the backup), and `core.filemode` is
+off because NTFS reports every file as executable. If the repo ever looks
+broken: re-clone from GitHub into this location and re-apply both settings.
 
 ## Hard rules
 
