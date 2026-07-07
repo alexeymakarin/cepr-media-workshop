@@ -245,7 +245,28 @@ a:hover { color: var(--blue-soft); }
    Edition page header
    -------------------------------------------------------------------------- */
 
-.edition-head { margin-bottom: 0.6rem; }
+.edition-head { margin-bottom: 0.6rem; overflow: auto; }
+
+/* venue postcard, floated beside the edition header */
+.postcard {
+  float: right;
+  width: 215px;
+  margin: 0.35rem 0 1.1rem 2rem;
+}
+.postcard img {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--hairline);
+  filter: sepia(0.08);
+}
+.postcard figcaption {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  padding-top: 0.35rem;
+  text-align: right;
+}
+.postcard figcaption a { color: inherit; }
 
 .edition-head .nth {
   font-family: var(--sans);
@@ -517,6 +538,8 @@ footer.site .rule-dot {
   .session .time { padding-top: 0; }
   ul.people { columns: 1; }
   .banner { flex-direction: column; gap: 0.3rem; }
+  .postcard { float: none; width: 100%; max-width: 260px; margin: 0 auto 1.4rem; }
+  .postcard figcaption { text-align: center; }
 }
 
 @media print {
